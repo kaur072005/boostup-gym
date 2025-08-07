@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         <p className={styles.copyright}>
-          © 2025 BoostUp Gym. All rights reserved.
+          © 2025 BoostUp Gym. created by <a>Aum Tech Solutions</a>.
         </p>
       </div>
     </footer>

@@ -10,7 +10,7 @@ const Footer = () => {
       <div className={styles.bgEffect}></div>
 
       <div className={styles.container}>
-        <h2 className={styles.heading}>Get in Touch</h2>
+        <h2 className={styles.heading}>Contact</h2>
 
         <div className={styles.details}>
           <div className={styles.item}>

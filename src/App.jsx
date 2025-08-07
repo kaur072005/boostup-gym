@@ -5,9 +5,9 @@ import Programs from "./components/Programs";
 import WhyChooseUs from "./components/WhyChooseUs";
 import TrainersSection from "./components/TrainersSection";
 import Testimonials from "./components/Testimonials";
-import PricingSection from "./components/PricingSection";
-import GetInTouch from "./components/GetInTouch";
+import PricingSection from "./components/PricingSection"
 import Footer from "./components/Footer";
+import GetInTouch from "./components/GetInTouch";
 
 
 function App() {

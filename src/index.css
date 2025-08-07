@@ -1,0 +1,26 @@
+/* 🧵 Tailwind CSS core directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔥 Optional: Custom animation (fade-in-up) */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 👇 You can use this animation class in your elements */
+.animate-fade-in-up {
+  animation: fade-in-up 1s ease-out forwards;
+}
+
+/* ✅ Optional: Custom utilities (add only if needed) */
+body {
+  font-family: 'Arial', sans-serif;
+}

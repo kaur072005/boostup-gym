@@ -1,0 +1,99 @@
+/* src/components/Footer.module.css */
+.footerSection {
+  position: relative;
+  width: 100%;
+  background: #0e0e0e;
+  padding: 4rem 2rem;
+  color: white;
+  overflow: hidden;
+}
+
+.bgEffect {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle at center, #ff4b2b55, #000000 80%);
+  animation: animateBG 10s infinite alternate ease-in-out;
+  filter: blur(100px);
+  top: -20%;
+  left: -10%;
+  z-index: 0;
+}
+
+@keyframes animateBG {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  100% {
+    transform: scale(1.2) translate(30px, 30px);
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ff4b2b;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.icon {
+  color: #ff4b2b;
+  font-size: 1.3rem;
+}
+
+.social {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialIcon {
+  font-size: 1.8rem;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s;
+}
+
+.socialIcon:hover {
+  transform: scale(1.2);
+  color: #ff4b2b;
+}
+
+.copyright {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2rem;
+  }
+  .item {
+    font-size: 1rem;
+  }
+  .socialIcon {
+    font-size: 1.5rem;
+  }
+}

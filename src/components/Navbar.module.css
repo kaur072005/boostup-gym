@@ -1,0 +1,6 @@
+/* src/components/Navbar.module.css */
+.navbar {
+  background: linear-gradient(90deg, #9c9999, #dd2476); /* red-pink gradient */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}

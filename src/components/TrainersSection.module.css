@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Full-screen responsive video */
+.videoWrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.9);
+}
+
+/* Gap after video */
+.spacer {
+  height: 60px;
+  width: 100%;
+}
+
+/* Content area */
+.content {
+  width: 100%;
+  max-width: 1000px;
+  padding: 3rem 2rem;
+  background: linear-gradient(145deg, #111, #1a1a1a);
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 255, 153, 0.3);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.point h3 {
+  font-size: 1.8rem;
+  color: #00ff99;
+  margin-bottom: 0.5rem;
+}
+
+.point p {
+  font-size: 1.1rem;
+  color: #ccc;
+  line-height: 1.6;
+}

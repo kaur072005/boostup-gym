@@ -1,0 +1,89 @@
+.testimonialsSection {
+  background-image: url('/testimonial-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3rem;
+  border-radius: 1rem;
+  max-width: 800px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #ffae00;
+}
+
+.carousel {
+  position: relative;
+  height: 200px;
+}
+
+.card {
+  background: #1fb5ad;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(255, 174, 0, 0.4);
+}
+
+.review {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffae00;
+}
+
+.role {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.controls {
+  margin-top: 2rem;
+}
+
+.controls button {
+  background: #ffae00;
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.2rem;
+  margin: 0 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #ffcd4d;
+}
+
+.instruction {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+  .review {
+    font-size: 1.
+  }}
